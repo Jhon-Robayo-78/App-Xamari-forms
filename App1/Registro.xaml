@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Registro">
+    <ContentPage.Content>
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="Black">
+            <Label Text="Registro"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="32"/>
+            <Entry Placeholder="Nombre" PlaceholderColor="Gray"></Entry>
+            <Entry Placeholder="Apellido" PlaceholderColor="Gray"></Entry>
+            <Entry Placeholder="Escriba un nombre de usuario" PlaceholderColor="Gray"></Entry>
+            <Entry Placeholder="Correo" PlaceholderColor="Gray"></Entry>
+            <Entry IsPassword="True" Placeholder="Contraseña" PlaceholderColor="Gray"></Entry>
+            <Entry IsPassword="True" Placeholder="Confirme su Contraseña" PlaceholderColor="Gray"></Entry>
+            <Button 
+                VerticalOptions="Center"
+                Text="CREAR"
+                CornerRadius="50"
+                Clicked="Button_Clicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
