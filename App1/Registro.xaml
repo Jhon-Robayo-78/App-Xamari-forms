@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App1.Registro">
+             x:Class="App1.Registro" BackgroundColor="Black" >
     <ContentPage.Content>
-        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="Black">
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand" >
             <Label Text="Registro"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                    FontSize="32"/>
-            <Entry Placeholder="Nombre" PlaceholderColor="Gray"></Entry>
+            <Entry Placeholder="Nombre" PlaceholderColor="Gray" x:Name="nombreUser"></Entry>
             <Entry Placeholder="Apellido" PlaceholderColor="Gray"></Entry>
             <Entry Placeholder="Escriba un nombre de usuario" PlaceholderColor="Gray"></Entry>
             <Entry Placeholder="Correo" PlaceholderColor="Gray"></Entry>

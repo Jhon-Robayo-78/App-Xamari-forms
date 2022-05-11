@@ -12,9 +12,10 @@ namespace App1
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HomePage : ContentPage
     {
-        public HomePage()
+        public HomePage(string n)
         {
             InitializeComponent();
+            lblTexto.Text ="Bienvenido "+n;
         }
     }
 }

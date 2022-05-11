@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App1.HomePage">
+             x:Class="App1.HomePage" BackgroundColor="Black" >
     <ContentPage.Content>
         <StackLayout BackgroundColor="Black">
-            <Label Text="Home"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" 
-                   FontSize="32"
-                   TextColor="White"/>
+            <Label Text="Home" x:Name="lblTexto" TextColor="White" FontSize="32" HorizontalOptions="CenterAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

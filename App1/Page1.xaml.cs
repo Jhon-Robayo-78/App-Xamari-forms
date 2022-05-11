@@ -22,7 +22,7 @@ namespace App1
             if (TXTusername.Text=="admin" && TXTpassword.Text=="123")
             {
                 
-                await Navigation.PushAsync(new HomePage());
+                await Navigation.PushAsync(new HomePage(TXTusername.Text));
             }
             else {
                await DisplayAlert("Ops...", "Usuario o contraseña incorrecto", "Ok");

@@ -19,7 +19,8 @@ namespace App1
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Ops...", "Error con la conexion a servidor intente mas tarde", "Ok");
+            Navigation.PushAsync(new HomePage(nombreUser.Text));
+            //DisplayAlert("Ops...", "Error con la conexion a servidor intente mas tarde", "Ok");
         }
     }
 }

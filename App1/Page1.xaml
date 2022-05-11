@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App1.Page1">
-    <StackLayout BackgroundColor="Black" Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand" >
+             x:Class="App1.Page1" BackgroundColor="Black" >
+    <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand" >
        <Image Source="LOGOUTB.png" WidthRequest="90" HeightRequest="90"></Image>
         <Entry x:Name="TXTusername"  Placeholder="Usario" PlaceholderColor="Gray"></Entry>
         <Entry x:Name="TXTpassword" IsPassword="True" Placeholder="Contraseña"  PlaceholderColor="Gray"></Entry>
